@@ -1,37 +1,40 @@
 # Insurance-case
+# Insurance Case
+## Health Insurance Analysis
 
-# Análise de Seguro de Saúde
+This repository contains Python code for the analysis of health insurance data. The code loads and preprocesses the data, creates regression models, and optimizes hyperparameters to enhance the performance of the Gradient Boosting model. The final results, including the R-squared (R²) and Mean Absolute Error (MAE) of the optimized model, are displayed.
 
-Este repositório contém um código Python para análise de dados de seguros de saúde. O código carrega, pré-processa os dados, cria modelos de regressão e otimiza hiperparâmetros para melhorar o desempenho do modelo de Gradient Boosting. Os resultados finais, incluindo o R-quadrado (R²) e o Erro Médio Absoluto (MAE) do modelo otimizado, são exibidos.
+### Repository Contents
+- `insurance.xlsx`: The health insurance data file in Excel format.
+- `insurance_analysis.py`: The Python code with descriptive comments.
+- `README.md`: This file containing information about the code.
 
-## Conteúdo do Repositório
+### How to Use
+Clone the repository:
+```bash
+git clone https://github.com/bcguilherme/insurance-analysis.git
 
-- `insurance.xlsx`: O arquivo de dados de seguros de saúde em formato Excel.
-- `insurance_analysis.py`: O código Python com comentários descritivos.
-- `README.md`: Este arquivo com informações sobre o código.
+Install the necessary libraries (ensure you have Python and Jupyter Notebook installed):
 
-## Como Usar
 
-1. Clone o repositório:
 
-   ```bash
-   git clone https://github.com/bcguilherme/insurance-analysis.git
-Instale as bibliotecas necessárias (certifique-se de ter o Python e o Jupyter Notebook instalados):
-
-bash
-Copy code
 pip install pandas numpy scikit-learn
-Execute o código em um ambiente Python compatível.
 
-Siga as etapas fornecidas no código para executar a análise e otimização de hiperparâmetros.
+Execute the code in a compatible Python environment. Follow the steps provided in the code to perform the analysis and hyperparameter optimization.
 
-Detalhes do Código
-O código insurance_analysis.py está bem documentado com comentários que descrevem cada etapa do processo, desde o carregamento dos dados até a otimização de hiperparâmetros e avaliação dos modelos. Os principais modelos usados são Regressão Linear, Random Forest, AdaBoost e Gradient Boosting.
+Code Details
+The insurance_analysis.py code is well-documented with comments describing each step of the process, from data loading to hyperparameter optimization and model evaluation. The main models used include Linear Regression, Random Forest, AdaBoost, and Gradient Boosting.
 
-Resultados
-Os resultados da análise, incluindo o R-quadrado e o MAE para o modelo final, são exibidos no código.
+Results
+The analysis results, including R-squared and MAE for the final model, are displayed in the code.
 
-Autor
+Author
 Guilherme B. Correia
-contato.guilhermebc@icloud.com
-Sinta-se à vontade para contribuir ou entrar em contato se tiver alguma dúvida ou comentário.
+Contact: contato.guilhermebc@icloud.com
+
+Feel free to contribute or reach out.
+
+vbnet
+Copy code
+
+This format is suitable for Markdown, commonly used for documentation on platforms like GitHub. 
